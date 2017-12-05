@@ -1,4 +1,4 @@
-const postMd = require('.');
+const PostMD = require('.');
 const bemjson = require('./plugins/postmd-bemjson');
 
 const md = `
@@ -44,7 +44,7 @@ const md = `
 \`\`\`
 `;
 
-const json = postMd('I am using __markdown__.', {
+const json = PostMD(md, {
     transform: {
         format: 'json',
         plugins: bemjson({ scope: 'md' })
