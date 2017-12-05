@@ -1,0 +1,25 @@
+{
+  "name": "postmd",
+  "version": "0.0.1",
+  "description": "PostMd is a tool to transform markdown with JS pluigns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awinogradov/PostMd.git"
+  },
+  "keywords": [
+    "mardown",
+    "json",
+    "transform",
+    "plugins"
+  ],
+  "author": "Anton vinogradov <winogradovaa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awinogradov/PostMd/issues"
+  },
+  "homepage": "https://github.com/awinogradov/PostMd#readme"
+}
